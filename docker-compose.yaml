@@ -3,6 +3,6 @@ services:
   flower_shop:
     build: .
     ports:
-      - "5000:5000"
+      - "8001:5000"
     volumes:
       - ./app:/app
